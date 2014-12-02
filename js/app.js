@@ -49,7 +49,6 @@ function waitForTwttr(callback) {
 }
 
 function addTweet() {
-  count += 1;
   var tweetId = getId();
   var divs = $(".tweet");
   var div = $(divs[count % divs.length]);
@@ -63,6 +62,7 @@ function addTweet() {
     $(t).style('margin', '30px');
   });
   setTimeout(addTweet, refresh);
+  count += 1;
 }
 
 function getId() {

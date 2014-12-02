@@ -1,0 +1,24 @@
+<html>
+
+  <head>
+    <title>Random Ferguson Tweets from the UMD Archive</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="tweet">
+    </div>
+    <script>window.twttr = (function (d, s, id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src= "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));</script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/ids.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+
+</html>

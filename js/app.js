@@ -1,4 +1,4 @@
-var refresh = 5000;
+var refresh = 10000;
 
 function run() {
   waitForTwttr(setTweet);

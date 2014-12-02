@@ -1,3 +1,5 @@
+// twitter ids for #ferguson tweets from the UMD Ferguson Archive
+
 ids = [
   "498547402379255809",
   "498113650415394817",

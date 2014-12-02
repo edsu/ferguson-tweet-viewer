@@ -1,18 +1,4 @@
 body {
-    margin: 10px;
-    display: table;
-    height: 100%;
-    width: 100%;
     background-color: black;
-}
-
-
-#tweet {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-iframe {
-  border: thin solid red;
-  text-align: middle;
+    overflow-y: hidden;
 }

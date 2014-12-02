@@ -12,6 +12,6 @@ body {
   height: 100%;
 }
 
-iframe {
- margin-top: 20px;
+.tweet div {
+ margin-top: 30px;
 }

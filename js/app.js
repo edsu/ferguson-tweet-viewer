@@ -21,7 +21,7 @@ function addDivs() {
   if (width < tweetWidth * 2) {
     tweetWidth = width - 30;
     refresh = 10000;
-    $('body').append($('<div class="tweet"></div>'));
+    $('body').append($('<div class="tweet"></div>').css('margin-top', '5'));
   } 
   // otherwise do we have room for more than one tweet?
   else {

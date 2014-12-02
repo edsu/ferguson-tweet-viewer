@@ -6,12 +6,6 @@ body {
     display: table;
 }
 
-.tweet {
-  display: table-cell;
-  vertical-align: middle;
-  height: 100%;
-}
-
 .tweet div {
  margin-top: 30px;
 }
